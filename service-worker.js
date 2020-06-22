@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/purelist-app/precache-manifest.238867300f6b3c6b0cd33d9e5b3b5d98.js"
+  "/purelist-app/precache-manifest.d464437e90a9fea8cf38411785f1173a.js"
 );
 
 self.addEventListener('message', (event) => {

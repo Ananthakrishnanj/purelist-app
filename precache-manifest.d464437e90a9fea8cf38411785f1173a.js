@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58d34bfa007fe2a515035fd2d99bec13",
+    "revision": "13aa768b4303d9e6bd860851ecfd262b",
     "url": "/purelist-app/index.html"
   },
   {
