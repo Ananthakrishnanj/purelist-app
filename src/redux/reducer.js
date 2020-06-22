@@ -9,7 +9,6 @@ const initialState = {
 }
 
 const reducer = (state = initialState, action) => {
-    console.log("change : ", action);
     switch (action.type) {
         case FETCH_DETAILS_REQUEST:
             {
