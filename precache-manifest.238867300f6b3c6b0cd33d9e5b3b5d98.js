@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3daa4813aca8a08d24aa2e8426646241",
+    "revision": "58d34bfa007fe2a515035fd2d99bec13",
     "url": "/purelist-app/index.html"
   },
   {
-    "revision": "48640d6ab7bd31ac16c1",
+    "revision": "9f30f22c4f60a7c09036",
     "url": "/purelist-app/static/css/main.23038552.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/purelist-app/static/js/2.9d8e3321.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "48640d6ab7bd31ac16c1",
-    "url": "/purelist-app/static/js/main.ca518aa3.chunk.js"
+    "revision": "9f30f22c4f60a7c09036",
+    "url": "/purelist-app/static/js/main.ffea6b93.chunk.js"
   },
   {
     "revision": "1c78274c7708a0f0790d",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/purelist-app/static/css/main.23038552.chunk.css",
-    "main.js": "/purelist-app/static/js/main.ca518aa3.chunk.js",
-    "main.js.map": "/purelist-app/static/js/main.ca518aa3.chunk.js.map",
+    "main.js": "/purelist-app/static/js/main.ffea6b93.chunk.js",
+    "main.js.map": "/purelist-app/static/js/main.ffea6b93.chunk.js.map",
     "runtime-main.js": "/purelist-app/static/js/runtime-main.ad2a591f.js",
     "runtime-main.js.map": "/purelist-app/static/js/runtime-main.ad2a591f.js.map",
     "static/js/2.9d8e3321.chunk.js": "/purelist-app/static/js/2.9d8e3321.chunk.js",
     "static/js/2.9d8e3321.chunk.js.map": "/purelist-app/static/js/2.9d8e3321.chunk.js.map",
     "index.html": "/purelist-app/index.html",
-    "precache-manifest.4d8b16026391f30ef1cc5ac5b19903db.js": "/purelist-app/precache-manifest.4d8b16026391f30ef1cc5ac5b19903db.js",
+    "precache-manifest.238867300f6b3c6b0cd33d9e5b3b5d98.js": "/purelist-app/precache-manifest.238867300f6b3c6b0cd33d9e5b3b5d98.js",
     "service-worker.js": "/purelist-app/service-worker.js",
     "static/css/main.23038552.chunk.css.map": "/purelist-app/static/css/main.23038552.chunk.css.map",
     "static/js/2.9d8e3321.chunk.js.LICENSE.txt": "/purelist-app/static/js/2.9d8e3321.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ad2a591f.js",
     "static/js/2.9d8e3321.chunk.js",
     "static/css/main.23038552.chunk.css",
-    "static/js/main.ca518aa3.chunk.js"
+    "static/js/main.ffea6b93.chunk.js"
   ]
 }
