@@ -3,6 +3,8 @@ import { fetchDetails } from '../redux/action'
 import { connect } from 'react-redux'
 import Tiles from './Tiles';
 import Navbar from './Navbar';
+import Error from './Error';
+import Loader from './Loader';
 
 class HomeContainer extends Component {
     constructor(props) {
@@ -49,12 +51,10 @@ class HomeContainer extends Component {
                 }
                 </div>
                 { this.props.isLoading &&
-                <div className="text-center mt-4 text-3xl text-white">
-                    <i className="fa fa-circle-o-notch fa-spin"></i>
-                </div>
+                <Loader></Loader>
                 }
                 {this.props.error &&
-                <div className="text-center mt-4 text-white"><i className="fa fa-exclamation-triangle mr-2" aria-hidden="true"></i>{this.props.error}</div>
+                <Error error={this.props.error}></Error>
                 }                
                 <div ref={this.loadRef} className="h-1">&nbsp;</div>
             </div>
