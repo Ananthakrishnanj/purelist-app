@@ -31,8 +31,7 @@ const reducer = (state = initialState, action) => {
             }
         case FETCH_DETAILS_FAILURE:
             return {
-                ...state,
-                data:[],
+                ...state,                
                 error: action.payload,
                 isLoading: false
             }       

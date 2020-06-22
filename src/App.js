@@ -8,7 +8,7 @@ import "./assets/styles/app.css";
 function App() {
   return (
     <Provider store={store}>
-    <div className="min-h-screen">
+    <div className="min-h-full">
       <HomeContainer />
     </div>
     </Provider>

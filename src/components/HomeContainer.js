@@ -48,11 +48,13 @@ class HomeContainer extends Component {
                     })
                 }
                 </div>
-                {this.props.isLoading &&
-                <div style={{height: "200px"}}>Loading</div>
+                { this.props.isLoading &&
+                <div className="text-center mt-4 text-3xl text-white">
+                    <i className="fa fa-circle-o-notch fa-spin"></i>
+                </div>
                 }
                 {this.props.error &&
-                <div className="text-white">{this.props.error}</div>
+                <div className="text-center mt-4 text-white"><i className="fa fa-exclamation-triangle mr-2" aria-hidden="true"></i>{this.props.error}</div>
                 }                
                 <div ref={this.loadRef} className="h-1">&nbsp;</div>
             </div>
