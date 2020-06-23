@@ -1,11 +1,12 @@
-import { FETCH_DETAILS_REQUEST, FETCH_DETAILS_SUCCESS, FETCH_DETAILS_FAILURE } from "./actionType";
+import { FETCH_DETAILS_REQUEST, FETCH_DETAILS_SUCCESS, FETCH_DETAILS_FAILURE, SET_SEARCH_MODE } from "./actionType";
 
 const initialState = {
     data: [],
     isLoading: true,
     error: '',
     totalItems: 0,
-    title: ''
+    title: '',
+    searchMode: false
 }
 
 const reducer = (state = initialState, action) => {
@@ -33,6 +34,12 @@ const reducer = (state = initialState, action) => {
                 ...state,                
                 error: action.payload,
                 isLoading: false
+            }
+        case SET_SEARCH_MODE:
+            return {
+                ...state,
+                searchMode: action.payload,
+                data: []                
             }       
         default:
             return state;
