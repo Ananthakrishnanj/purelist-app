@@ -17,7 +17,7 @@ class HomeContainer extends Component {
 
     componentDidMount() {               
         this.observer = new IntersectionObserver(entries => {            
-            console.log(entries, "entries");
+//             console.log(entries, "entries");
             entries.forEach(entry => {
               if (entry.intersectionRatio > 0) {
                 this.loadMore();
