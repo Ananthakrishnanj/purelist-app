@@ -31,6 +31,12 @@ class Navbar extends Component {
             this.setState({showTextInput : true});
         }
     }
+    
+    handleKeyPress(target) {
+        if (target.charCode == 13) {
+            this.initiateSeach();
+        }
+    }
 
     clearSearch() {
         if(this.state.searched) {
@@ -54,7 +60,7 @@ class Navbar extends Component {
                 <p className="text-white ml-2 flex-grow">{this.props.title}</p>
                 {
                 this.state.showTextInput &&
-                <input type="text" value={this.state.searchText} onChange={(e) => this.changeSearchText(e)} className="animate__animated animate__fadeInRight duration-75 mr-2 text-white bg-transparent border-b outline-none border-white border-opacity-50 focus:border-opacity-100" />
+                <input type="text" value={this.state.searchText} onChange={(e) => this.changeSearchText(e)} onKeyPress={(e) => this.handleKeyPress(e)} className="animate__animated animate__fadeInRight duration-75 mr-2 text-white bg-transparent border-b outline-none border-white border-opacity-50 focus:border-opacity-100" />
                 }
                 {
                 this.state.showTextInput &&
