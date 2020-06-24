@@ -1,5 +1,5 @@
 ## PLEASE NOTE
-The application uses dynamic layout for desktop and mobile view. Please switch to mobile view to see the mobile screen implementation (3-column)
+The application uses dynamic layout for desktop and mobile view. Please switch to mobile view to see the mobile screen implementation (3-column). Integrated search funtionality
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
